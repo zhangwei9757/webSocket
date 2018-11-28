@@ -1,0 +1,9 @@
+server:
+  port: 8989
+
+spring:
+  freemarker:
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+    charset: UTF-8
+    cache: false
